@@ -1978,12 +1978,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "ollama" },
     { name = "parlant" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "ollama", specifier = ">=0.5.3" },
     { name = "parlant", specifier = "==3.0.2" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]
